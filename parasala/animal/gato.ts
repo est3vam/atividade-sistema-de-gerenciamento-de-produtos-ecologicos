@@ -1,16 +1,18 @@
 import { Animal } from "./animal";
 class Gato{
-    nome:string;
-    idade:number;
+                nome:string;
+                                       idade:number;
     raca:string;
 
     constructor(nome:string, idade:number, raca:string){
-        this.nome=nome;
+                       this.nome=nome;
         this.idade=idade;
-        this.raca = raca;
+                       this.raca = raca;
     }
+
+
     som():void{
-console.log("miaaaaau")
+     console.log("miaaaaau")
 
     }
    
@@ -18,8 +20,8 @@ console.log("miaaaaau")
     
 
 }
- const gato = new Gato("trabalhador",2, "pobre");
+       const gato = new Gato("trabalhador",2, "pobre");
  console.log(gato.idade);
- console.log(gato.nome);
- console.log(gato.raca);
- gato.som;
+       console.log(gato.nome);                    
+                    console.log(gato.raca);
+                                         gato.som;

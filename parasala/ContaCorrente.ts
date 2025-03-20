@@ -20,6 +20,8 @@ class ContaCorrente implements contaBancaria{
     }
 }
 const conta = new ContaCorrente(1000);
+console.log(conta.saldo);
 
 conta.depositar(200);
-conta.sacar(9000000000000);
+
+conta.sacar(900000);
