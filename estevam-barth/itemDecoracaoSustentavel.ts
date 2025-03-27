@@ -1,0 +1,13 @@
+import { ProdutoEcologico } from "./ProdutoEcologico";
+ 
+export class itemDecoracaoSustentavel implements ProdutoEcologico{
+    nome:string ;
+    preco:number;
+    material:string;
+
+    constructor(nome:string, preco:number, material:string){
+    this.nome = nome;
+    this.preco = preco;
+    this.material = material;
+}
+}
